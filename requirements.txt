@@ -1,0 +1,16 @@
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+loguru>=0.7.3
+geopandas>=1.1.1
+contextily>=1.6.2
+matplotlib>=3.10.6
+shapely>=2.1.1
+xyzservices>=2025.4.0
+geodatasets>=2024.8.0
+pillow>=11.3.0
+svgpath2mpl>=1.0.0
+pyrogram>=2.0.106
+tgcrypto>=1.2.5
+font-roboto>=0.0.1
+font-source-sans-pro>=0.0.1

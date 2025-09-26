@@ -1,0 +1,47 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environments
+.env
+
+
+
+# Telegram sessions (містять особисті дані)
+telegram_sessions/
+*.session
+
+# Logs
+logs/
+*.log
+
+# Database (може містити особисті дані)
+db/cities_coordinates.db
+
+# Generated maps (можуть бути великі файли)
+gened_maps/
+*.png
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.zip
+*.bak
+compress_input.py
