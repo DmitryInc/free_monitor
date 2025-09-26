@@ -16,7 +16,7 @@ env/
 
 
 
-# Telegram sessions (містять особисті дані)
+# Telegram sessions
 telegram_sessions/
 *.session
 
@@ -24,10 +24,10 @@ telegram_sessions/
 logs/
 *.log
 
-# Database (може містити особисті дані)
+# Database
 db/cities_coordinates.db
 
-# Generated maps (можуть бути великі файли)
+# Generated maps
 gened_maps/
 
 # IDE files
