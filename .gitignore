@@ -29,7 +29,6 @@ db/cities_coordinates.db
 
 # Generated maps (можуть бути великі файли)
 gened_maps/
-*.png
 
 # IDE files
 .vscode/
