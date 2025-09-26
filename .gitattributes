@@ -1,0 +1,25 @@
+# Ignore shape files and other data files for language detection
+shapes/ linguist-vendored
+*.shp linguist-vendored
+*.dbf linguist-vendored
+*.shx linguist-vendored
+*.prj linguist-vendored
+*.cpg linguist-vendored
+
+# Ignore generated maps and logs
+gened_maps/ linguist-generated
+logs/ linguist-generated
+
+# Mark SVG files as vendored (not part of main codebase)
+*.svg linguist-vendored
+
+# Ensure Python is detected as main language
+*.py linguist-language=Python
+
+# Ignore lock files for language detection
+uv.lock linguist-generated
+*.lock linguist-generated
+
+# Documentation files
+README.md linguist-documentation
+readme/ linguist-documentation
